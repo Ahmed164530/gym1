@@ -1,0 +1,118 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ::selection {
+    background-color: #bfbfbf;
+    color: #000;
+
+}
+
+.navbar {
+    background-color: #1e2125 !important;
+    box-shadow: 0 0 0 !important;
+}
+
+video {
+    height: 300px;
+}
+
+
+
+body {
+
+    background-color:white;
+    font-family: 'Trebuchet MS', Arial;
+    font-size: 20px;
+    color: black;
+}
+
+.container p:nth-child(2) {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0 20px 0;
+}
+
+h1 {
+    padding: 30px 0 0;
+    text-align: center;
+
+
+}
+
+.col-lg-6:nth-child(1) p:nth-child(2) {
+    margin-top: 30px;
+
+}
+
+.row {
+    margin-bottom: 172px;
+    height: max-content;
+}
+
+.container img {
+    /* border-radius: 20px; */
+    height: 350px;
+}
+
+p {
+    text-align: left !important;
+}
+
+.gmy {
+    width: 50px;
+}
+
+.navbar {
+    background-color: rgba(212, 211, 211, 0.4);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+ .navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+} 
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color:rgb(11, 11, 128);
+    border: rgb(11, 11, 128);
+}
+.name{
+    /* position: relative;
+    left: 950px; */
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    color:white; 
+}
+h5{
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+
+.row img{
+    border-radius: 20px;
+}
